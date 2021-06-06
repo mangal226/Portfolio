@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" />
+		<title>contact</title>
+	</head>
+	<body>
+		<div id="bloc_page">
+			<header>
+				<div id="logo_hamed">
+					<img src="logo.png"/>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="certifications.html">Certifications</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			
+			<section>
+				<div id="presentation_hamed">
+					<h2><p>Contact</p></h2>
+					<p>adresse: 92230, Gennevilliers, France</p>
+					<p>telephone: +33 7 64 41 69 14</p>
+					<p>email: mangali226@yahoo.fr</p>
+				</div>
+			</section>
+			<section>
+				<div id="message">
+					<h2><p>Message</p></h2>
+				</div>
+			</section>
+			<section>
+				<form method="post" action="traitement.php">
+					<p>
+						<label for="pseudo">Entrer votre prénom :</label>
+						<input type="text" name="pseudo" id="pseudo" placeholder="Ex : zozor" size="30" maxlength="10" />
+					</p>
+				</form>
+				<aside>
+					<form method="post" action="traitement.php">
+						<p>
+							<label for="email">Entrer votre email :</label>
+							<input type="email" name="email" id="email" placeholder="Ex : zozor@gmail.com" size="30" maxlength="10" />
+						</p>
+					</form>
+				</aside>
+			</section>
+			<section>
+				<form method="post" action="traitement.php">
+					<p>
+						<label for="objet">Entrer l'objet du message :</label>
+						<input type="text" name="objet" id="objet" placeholder="Ex : Demande de prestation" size="30" maxlength="10" />
+					</p>
+				</form>
+			</section>
+			<section>
+				<form method="post" action="traitement.php">
+				   <p>
+					   <label for="ameliorer">Message: </label></br>
+						<textarea name="ameliorer" id="ameliorer" rows="20" cols="50"></textarea>       
+				   </p>
+				</form>
+			</section>
+			<section>
+				<input type="submit" value="Envoyer" />
+			</section>
+		</div>
+	</body>
+</html>
